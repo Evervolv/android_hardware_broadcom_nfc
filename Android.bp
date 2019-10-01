@@ -17,7 +17,7 @@ cc_library_shared {
     shared_libs: [
         "libcutils",
         "liblog",
-        "libhwbinder",
+        "libhidlbase",
     ],
     local_include_dirs: [
         "halimpl/bcm2079x/include",
