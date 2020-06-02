@@ -26,8 +26,9 @@
 #include <vector>
 #include "_OverrideLog.h"
 
-const char* transport_config_paths[] = {"/odm/etc/", "/vendor/etc/",
-                                        "/product/etc/", "/etc/"};
+const char* transport_config_paths[] = {
+    "/product/etc/", "/odm/etc/", "/vendor/etc/", "/system_ext/etc/", "/etc/",
+};
 const int transport_config_path_size =
     (sizeof(transport_config_paths) / sizeof(transport_config_paths[0]));
 
